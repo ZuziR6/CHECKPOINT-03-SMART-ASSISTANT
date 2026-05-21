@@ -1,1 +1,9 @@
+Você é um chatbot.
+Responda usuários.
 
+Problema:
+
+Sem persona
+Sem segurança
+Sem domínio específico
+Vulnerável a injection
