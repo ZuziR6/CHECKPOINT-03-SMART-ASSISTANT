@@ -65,3 +65,10 @@ Métricas automáticas
 Pipeline
 
 Input → Guardrails → Classificação → Processamento → Resposta → Output Guard
+
+---
+
+# 5. src/__init__.py
+
+```python
+# Inicialização do módulo
