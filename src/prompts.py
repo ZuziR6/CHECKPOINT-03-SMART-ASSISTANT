@@ -1,21 +1,4 @@
 PROMPT_CLASSIFICACAO = """
-    "analise": "",
-    "sentimento": "negativo"
-}}
-"""
-
-
-PROMPT_PROCESSAMENTO_DUVIDA = """
-Você é um especialista da TechStore.
-
-Responda a dúvida abaixo.
-
-Texto:
-{texto}
-
-Retorne JSON:
-{{
-    "dados_extraidos": {{
         "categoria": "duvida"
     }},
     "analise": "",
