@@ -1,1 +1,68 @@
-
+[
+    },
+    {
+        "texto": "Gostei muito do atendimento",
+        "tipo_esperado": "elogio",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "Quero sugerir melhorias no app",
+        "tipo_esperado": "sugestao",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "Meu pedido não chegou",
+        "tipo_esperado": "reclamacao",
+        "urgencia_esperada": "alta"
+    },
+    {
+        "texto": "Posso trocar o produto?",
+        "tipo_esperado": "duvida",
+        "urgencia_esperada": "media"
+    },
+    {
+        "texto": "Excelente suporte técnico",
+        "tipo_esperado": "elogio",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "O carregador veio errado",
+        "tipo_esperado": "reclamacao",
+        "urgencia_esperada": "media"
+    },
+    {
+        "texto": "Quais formas de pagamento aceitam?",
+        "tipo_esperado": "duvida",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "Parabéns pelo aplicativo",
+        "tipo_esperado": "elogio",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "O mouse parou de funcionar",
+        "tipo_esperado": "reclamacao",
+        "urgencia_esperada": "alta"
+    },
+    {
+        "texto": "Quero cancelar meu pedido",
+        "tipo_esperado": "duvida",
+        "urgencia_esperada": "media"
+    },
+    {
+        "texto": "Atendimento rápido e eficiente",
+        "tipo_esperado": "elogio",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "Vocês poderiam melhorar o rastreamento",
+        "tipo_esperado": "sugestao",
+        "urgencia_esperada": "baixa"
+    },
+    {
+        "texto": "Recebi produto errado",
+        "tipo_esperado": "reclamacao",
+        "urgencia_esperada": "alta"
+    }
+]
