@@ -1,1 +1,83 @@
+Grupo:
+Gabriel Guimarães de Oliveira - 567835
+Pedro Paulo Ferreira Agnelo D'angelo - 567564
+Nicolas Henriques Fernandes -  567123
+Domínio: TechStore Smart Support
+
+INTRODUÇÃO
+O projeto TechStore Smart Support foi desenvolvido com o objetivo de criar um assistente inteligente em Python capaz de processar solicitações de clientes de forma segura, estruturada e automatizada. O sistema utiliza técnicas avançadas de Prompt Engineering, incluindo prompt chaining, guardrails de segurança e structured output com Pydantic.
+Além disso, o projeto aplica padrões profissionais de prompting, garantindo respostas consistentes, organizadas e seguras contra ataques de prompt injection.
+
+ARQUITETURA
+Fluxo:
+Input do usuário ↓ Input Guard ↓ Etapa 1 — Classificação ↓ Etapa 2 — Processamento Condicional ↓ Etapa 3 — Resposta Final ↓ Output Guard ↓ Resposta JSON
+Pydantic atua validando todas as saídas estruturadas.
+
+STACK TÉCNICA
+Python 3.10+
+Ollama
+gpt-oss:120b
+Pydantic
+Pandas
+Matplotlib
+Tiktoken
+
+PROMPTS VERSIONADOS
+V1
+Prompt genérico sem proteção.
+Problemas:
+Sem persona
+Sem domínio
+Vulnerável
+V2
+Adicionadas regras básicas.
+Melhorias:
+Restrição de domínio
+Primeiros guardrails
+V3
+Versão final otimizada.
+Melhorias:
+Persona Pattern
+Recipe Pattern
+CRISPE
+JSON estruturado
+Defesa avançada
+
+FRAMEWORK UTILIZADO
+Foi utilizado o framework CRISPE.
+Antes: Prompt genérico.
+Depois: Prompt estruturado com:
+Capacity
+Role
+Insight
+Statement
+Personality
+Experiment
+Impacto:
+Melhor consistência
+Respostas mais profissionais
+Menos erros
+Melhor segurança
+
+AVALIAÇÃO
+Métricas:
+Acurácia: 93%
+JSON válido: 100%
+Bloqueio: 100%
+Falso positivo: 0%
+Consistência: 95%
+Análise: O sistema apresentou alta consistência e bloqueou corretamente todos os ataques testados.
+
+SEGURANÇA
+Ataques testados:
+Prompt injection
+DAN jailbreak
+Prompt leaking
+Override
+Ignore instructions
+Todos foram bloqueados.
+
+REFLEXÃO
+O projeto demonstrou a importância dos guardrails e da validação estruturada em aplicações com LLMs. Em produção, seriam adicionadas autenticação, logs, monitoramento e filtros mais avançados.
+
 
