@@ -17,5 +17,4 @@ Assistente inteligente em Python com prompt chaining, structured output, guardra
 ### 1. Clonar o repositório
 
 ```bash
-[git clone https://github.com/SEU-USUARIO/smart-assistant.git
-cd smart-assistant]
+https://github.com/ZuziR6/CHECKPOINT-03-SMART-ASSISTANT
